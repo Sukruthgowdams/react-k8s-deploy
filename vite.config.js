@@ -1,9 +1,15 @@
 import { defineConfig } from "vite"
 import react from "@vitejs/plugin-react"
 import path from "path"
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
+
+// ESM-compatible __dirname
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 export default defineConfig({
-  base: './', // ✅ Important for serving from subpaths like in Docker/Kubernetes
+  base: './',
   plugins: [react()],
   resolve: {
     alias: {
