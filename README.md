@@ -1,6 +1,4 @@
-Here’s a complete and professional `README.md` for your GitHub repo (`react-k8s-deploy`) that explains your project, tech stack, setup, and deployment clearly:
 
----
 
 ````markdown
 # 🚀 React App with Docker, Kubernetes, and CI/CD
