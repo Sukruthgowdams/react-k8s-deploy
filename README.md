@@ -1,6 +1,5 @@
 
 
-````markdown
 # 🚀 React App with Docker, Kubernetes, and CI/CD
 
 This project is a **React-based web application** built using **Vite**, styled with **Tailwind CSS**, containerized using **Docker**, orchestrated using **Kubernetes**, and deployed using **CI/CD (GitHub Actions)**. The final deployment is hosted publicly using **Railway**.
@@ -33,7 +32,6 @@ This project is a **React-based web application** built using **Vite**, styled w
 ├── README.md
 ````
 
----
 
 ## 🚀 Local Development
 
